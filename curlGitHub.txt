@@ -1,0 +1,9 @@
+curl -u tim-harsch-tb:TOKEN https://api.github.com/user/repos
+
+curl -u tim-harsch-tb:TOKEN https://api.github.com/repos/harschware/rnr-test/events | jq '.[] | select(.type | contains("equest"))'
+
+curl -u tim-harsch-tb:TOKEN https://api.github.com/repos/harschware/rnr-test/pulls/4
+
+curl -u tim-harsch-tb:TOKEN https://api.github.com/repos/harschware/rnr-test/pulls/2/merge
+
+curl -u tim-harsch-tb:TOKEN https://api.github.com/repos/harschware/rnr-test/pulls\?state\=all
