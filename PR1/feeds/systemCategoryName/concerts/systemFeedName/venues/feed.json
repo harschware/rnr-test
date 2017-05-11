@@ -2672,8 +2672,8 @@
         "defineTable": true,
         "description": "Standard Data Ingest",
         "feedsCount": 3,
-        "icon": "github-circle",
-        "iconColor": "#90CAF9",
+        "icon": "apple",
+        "iconColor": "#F06292",
         "id": "ID-19",
         "inputProcessors": [
             {
@@ -2714,9 +2714,9 @@
                         "selected": true,
                         "sensitive": false,
                         "templateProperty": null,
-                        "templateValue": "venue\\d{1,3}.csv",
+                        "templateValue": "venues\\d{1,3}.csv",
                         "userEditable": true,
-                        "value": "venues\\d{1,3}.csv"
+                        "value": "VENUES\\d{1,3}.csv"
                     },
                     {
                         "containsConfigurationVariables": false,
@@ -2875,9 +2875,9 @@
                 "selected": true,
                 "sensitive": false,
                 "templateProperty": null,
-                "templateValue": "venue\\d{1,3}.csv",
+                "templateValue": "venues\\d{1,3}.csv",
                 "userEditable": true,
-                "value": "venues\\d{1,3}.csv"
+                "value": "VENUES\\d{1,3}.csv"
             },
             {
                 "containsConfigurationVariables": false,
@@ -4246,7 +4246,7 @@
         "stream": false,
         "templateName": "Data Ingest",
         "templateOrder": null,
-        "updateDate": 1494473333847
+        "updateDate": 1494476185742
     },
     "reusableFeed": false,
     "schedule": {
