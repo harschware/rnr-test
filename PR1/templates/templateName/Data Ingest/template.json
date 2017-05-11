@@ -6,8 +6,8 @@
     "defineTable": true,
     "description": "Standard Data Ingest",
     "feedsCount": 3,
-    "icon": "home",
-    "iconColor": "#AB47BC",
+    "icon": "github-circle",
+    "iconColor": "#90CAF9",
     "id": "ID-0",
     "inputProcessors": [
         {
@@ -48,9 +48,9 @@
                     "selected": true,
                     "sensitive": false,
                     "templateProperty": null,
-                    "templateValue": "mydata\\d{1,3}.csv",
+                    "templateValue": "venue\\d{1,3}.csv",
                     "userEditable": true,
-                    "value": "venue\\d{1,3}.csv"
+                    "value": "venues\\d{1,3}.csv"
                 },
                 {
                     "containsConfigurationVariables": false,
@@ -1374,9 +1374,9 @@
             "selected": true,
             "sensitive": false,
             "templateProperty": null,
-            "templateValue": "mydata\\d{1,3}.csv",
+            "templateValue": "venue\\d{1,3}.csv",
             "userEditable": true,
-            "value": "venue\\d{1,3}.csv"
+            "value": "venues\\d{1,3}.csv"
         },
         {
             "containsConfigurationVariables": false,
@@ -2745,5 +2745,5 @@
     "stream": false,
     "templateName": "Data Ingest",
     "templateOrder": null,
-    "updateDate": 1494458473162
+    "updateDate": 1494473333847
 }
