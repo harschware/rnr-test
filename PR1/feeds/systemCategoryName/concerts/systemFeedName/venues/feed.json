@@ -2672,8 +2672,8 @@
         "defineTable": true,
         "description": "Standard Data Ingest",
         "feedsCount": 3,
-        "icon": "home",
-        "iconColor": "#AB47BC",
+        "icon": "github-circle",
+        "iconColor": "#90CAF9",
         "id": "ID-19",
         "inputProcessors": [
             {
@@ -2686,7 +2686,7 @@
                     {
                         "containsConfigurationVariables": false,
                         "expressionProperties": null,
-                        "idKey": "ID-20-1f67e296-2ff8-4b5d-4552-ca1e0becc61a-File Filter",
+                        "idKey": "ID-20-1f67e296-2ff8-4b5d-326c-b1d9dd987a24-File Filter",
                         "inputProperty": true,
                         "key": "File Filter",
                         "nameKey": "NiFi Flow-Filesystem-File Filter",
@@ -2714,14 +2714,14 @@
                         "selected": true,
                         "sensitive": false,
                         "templateProperty": null,
-                        "templateValue": "mydata\\d{1,3}.csv",
+                        "templateValue": "venue\\d{1,3}.csv",
                         "userEditable": true,
-                        "value": "venue\\d{1,3}.csv"
+                        "value": "venues\\d{1,3}.csv"
                     },
                     {
                         "containsConfigurationVariables": false,
                         "expressionProperties": null,
-                        "idKey": "ID-20-1f67e296-2ff8-4b5d-4552-ca1e0becc61a-Input Directory",
+                        "idKey": "ID-20-1f67e296-2ff8-4b5d-326c-b1d9dd987a24-Input Directory",
                         "inputProperty": true,
                         "key": "Input Directory",
                         "nameKey": "NiFi Flow-Filesystem-Input Directory",
@@ -2767,7 +2767,7 @@
                     {
                         "containsConfigurationVariables": false,
                         "expressionProperties": null,
-                        "idKey": "ID-20-2567efe0-b28d-46c2-0aac-fd3c2e41d075-System feed category",
+                        "idKey": "ID-20-2567efe0-b28d-46c2-6de3-cb38c2c33d72-System feed category",
                         "inputProperty": true,
                         "key": "System feed category",
                         "nameKey": "NiFi Flow-Database-System feed category",
@@ -2802,7 +2802,7 @@
                     {
                         "containsConfigurationVariables": false,
                         "expressionProperties": null,
-                        "idKey": "ID-20-2567efe0-b28d-46c2-0aac-fd3c2e41d075-System feed name",
+                        "idKey": "ID-20-2567efe0-b28d-46c2-6de3-cb38c2c33d72-System feed name",
                         "inputProperty": true,
                         "key": "System feed name",
                         "nameKey": "NiFi Flow-Database-System feed name",
@@ -2847,7 +2847,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-1f67e296-2ff8-4b5d-4552-ca1e0becc61a-File Filter",
+                "idKey": "ID-20-1f67e296-2ff8-4b5d-326c-b1d9dd987a24-File Filter",
                 "inputProperty": true,
                 "key": "File Filter",
                 "nameKey": "NiFi Flow-Filesystem-File Filter",
@@ -2875,14 +2875,14 @@
                 "selected": true,
                 "sensitive": false,
                 "templateProperty": null,
-                "templateValue": "mydata\\d{1,3}.csv",
+                "templateValue": "venue\\d{1,3}.csv",
                 "userEditable": true,
-                "value": "venue\\d{1,3}.csv"
+                "value": "venues\\d{1,3}.csv"
             },
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-1f67e296-2ff8-4b5d-4552-ca1e0becc61a-Input Directory",
+                "idKey": "ID-20-1f67e296-2ff8-4b5d-326c-b1d9dd987a24-Input Directory",
                 "inputProperty": true,
                 "key": "Input Directory",
                 "nameKey": "NiFi Flow-Filesystem-Input Directory",
@@ -2917,7 +2917,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-2567efe0-b28d-46c2-0aac-fd3c2e41d075-System feed category",
+                "idKey": "ID-20-2567efe0-b28d-46c2-6de3-cb38c2c33d72-System feed category",
                 "inputProperty": true,
                 "key": "System feed category",
                 "nameKey": "NiFi Flow-Database-System feed category",
@@ -2952,7 +2952,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-2567efe0-b28d-46c2-0aac-fd3c2e41d075-System feed name",
+                "idKey": "ID-20-2567efe0-b28d-46c2-6de3-cb38c2c33d72-System feed name",
                 "inputProperty": true,
                 "key": "System feed name",
                 "nameKey": "NiFi Flow-Database-System feed name",
@@ -2987,7 +2987,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-3d3a4495-7365-1c62-ec49-e3a4478c0b53-category",
+                "idKey": "ID-20-3d3a4495-7365-1c62-bae8-a968dba06b19-category",
                 "inputProperty": false,
                 "key": "category",
                 "nameKey": "NiFi Flow-Initialize Cleanup Parameters-category",
@@ -3022,7 +3022,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-3d3a4495-7365-1c62-ec49-e3a4478c0b53-feed",
+                "idKey": "ID-20-3d3a4495-7365-1c62-bae8-a968dba06b19-feed",
                 "inputProperty": false,
                 "key": "feed",
                 "nameKey": "NiFi Flow-Initialize Cleanup Parameters-feed",
@@ -3057,7 +3057,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-3d3a4495-7365-1c62-ec49-e3a4478c0b53-hdfs.ingest.root",
+                "idKey": "ID-20-3d3a4495-7365-1c62-bae8-a968dba06b19-hdfs.ingest.root",
                 "inputProperty": false,
                 "key": "hdfs.ingest.root",
                 "nameKey": "NiFi Flow-Initialize Cleanup Parameters-hdfs.ingest.root",
@@ -3092,7 +3092,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-3d3a4495-7365-1c62-ec49-e3a4478c0b53-hive.ingest.root",
+                "idKey": "ID-20-3d3a4495-7365-1c62-bae8-a968dba06b19-hive.ingest.root",
                 "inputProperty": false,
                 "key": "hive.ingest.root",
                 "nameKey": "NiFi Flow-Initialize Cleanup Parameters-hive.ingest.root",
@@ -3127,7 +3127,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-3d3a4495-7365-1c62-ec49-e3a4478c0b53-hive.master.root",
+                "idKey": "ID-20-3d3a4495-7365-1c62-bae8-a968dba06b19-hive.master.root",
                 "inputProperty": false,
                 "key": "hive.master.root",
                 "nameKey": "NiFi Flow-Initialize Cleanup Parameters-hive.master.root",
@@ -3162,7 +3162,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-3d3a4495-7365-1c62-ec49-e3a4478c0b53-hive.profile.root",
+                "idKey": "ID-20-3d3a4495-7365-1c62-bae8-a968dba06b19-hive.profile.root",
                 "inputProperty": false,
                 "key": "hive.profile.root",
                 "nameKey": "NiFi Flow-Initialize Cleanup Parameters-hive.profile.root",
@@ -3197,7 +3197,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-6aeabec7-ec36-4ed5-f36d-c870445c76a6-Date Field",
+                "idKey": "ID-20-6aeabec7-ec36-4ed5-c610-1820423be5ad-Date Field",
                 "inputProperty": false,
                 "key": "Date Field",
                 "nameKey": "NiFi Flow-Fetch RDBMS Data-Date Field",
@@ -3232,7 +3232,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-6aeabec7-ec36-4ed5-f36d-c870445c76a6-Load Strategy",
+                "idKey": "ID-20-6aeabec7-ec36-4ed5-c610-1820423be5ad-Load Strategy",
                 "inputProperty": false,
                 "key": "Load Strategy",
                 "nameKey": "NiFi Flow-Fetch RDBMS Data-Load Strategy",
@@ -3267,7 +3267,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-6aeabec7-ec36-4ed5-f36d-c870445c76a6-Source Database Connection",
+                "idKey": "ID-20-6aeabec7-ec36-4ed5-c610-1820423be5ad-Source Database Connection",
                 "inputProperty": false,
                 "key": "Source Database Connection",
                 "nameKey": "NiFi Flow-Fetch RDBMS Data-Source Database Connection",
@@ -3302,7 +3302,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-6aeabec7-ec36-4ed5-f36d-c870445c76a6-Source Fields",
+                "idKey": "ID-20-6aeabec7-ec36-4ed5-c610-1820423be5ad-Source Fields",
                 "inputProperty": false,
                 "key": "Source Fields",
                 "nameKey": "NiFi Flow-Fetch RDBMS Data-Source Fields",
@@ -3337,7 +3337,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-6aeabec7-ec36-4ed5-f36d-c870445c76a6-Source Table",
+                "idKey": "ID-20-6aeabec7-ec36-4ed5-c610-1820423be5ad-Source Table",
                 "inputProperty": false,
                 "key": "Source Table",
                 "nameKey": "NiFi Flow-Fetch RDBMS Data-Source Table",
@@ -3372,7 +3372,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-6aeabec7-ec36-4ed5-f36d-c870445c76a6-System feed category",
+                "idKey": "ID-20-6aeabec7-ec36-4ed5-c610-1820423be5ad-System feed category",
                 "inputProperty": false,
                 "key": "System feed category",
                 "nameKey": "NiFi Flow-Fetch RDBMS Data-System feed category",
@@ -3407,7 +3407,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-6aeabec7-ec36-4ed5-f36d-c870445c76a6-System feed name",
+                "idKey": "ID-20-6aeabec7-ec36-4ed5-c610-1820423be5ad-System feed name",
                 "inputProperty": false,
                 "key": "System feed name",
                 "nameKey": "NiFi Flow-Fetch RDBMS Data-System feed name",
@@ -3442,7 +3442,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-category",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-category",
                 "inputProperty": false,
                 "key": "category",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-category",
@@ -3477,7 +3477,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-feed",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-feed",
                 "inputProperty": false,
                 "key": "feed",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-feed",
@@ -3512,7 +3512,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-hdfs.ingest.root",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-hdfs.ingest.root",
                 "inputProperty": false,
                 "key": "hdfs.ingest.root",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-hdfs.ingest.root",
@@ -3547,7 +3547,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-hive.ingest.root",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-hive.ingest.root",
                 "inputProperty": false,
                 "key": "hive.ingest.root",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-hive.ingest.root",
@@ -3582,7 +3582,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-hive.master.root",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-hive.master.root",
                 "inputProperty": false,
                 "key": "hive.master.root",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-hive.master.root",
@@ -3617,7 +3617,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-hive.profile.root",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-hive.profile.root",
                 "inputProperty": false,
                 "key": "hive.profile.root",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-hive.profile.root",
@@ -3652,7 +3652,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.feedFieldStructure",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.feedFieldStructure",
                 "inputProperty": false,
                 "key": "metadata.table.feedFieldStructure",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.feedFieldStructure",
@@ -3687,7 +3687,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.feedFormat",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.feedFormat",
                 "inputProperty": false,
                 "key": "metadata.table.feedFormat",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.feedFormat",
@@ -3722,7 +3722,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.fieldIndexString",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.fieldIndexString",
                 "inputProperty": false,
                 "key": "metadata.table.fieldIndexString",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.fieldIndexString",
@@ -3757,7 +3757,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.fieldPoliciesJson",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.fieldPoliciesJson",
                 "inputProperty": false,
                 "key": "metadata.table.fieldPoliciesJson",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.fieldPoliciesJson",
@@ -3792,7 +3792,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.fieldStructure",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.fieldStructure",
                 "inputProperty": false,
                 "key": "metadata.table.fieldStructure",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.fieldStructure",
@@ -3827,7 +3827,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.partitionSpecs",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.partitionSpecs",
                 "inputProperty": false,
                 "key": "metadata.table.partitionSpecs",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.partitionSpecs",
@@ -3862,7 +3862,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.partitionStructure",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.partitionStructure",
                 "inputProperty": false,
                 "key": "metadata.table.partitionStructure",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.partitionStructure",
@@ -3897,7 +3897,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.targetFormat",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.targetFormat",
                 "inputProperty": false,
                 "key": "metadata.table.targetFormat",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.targetFormat",
@@ -3932,7 +3932,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.targetMergeStrategy",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.targetMergeStrategy",
                 "inputProperty": false,
                 "key": "metadata.table.targetMergeStrategy",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.targetMergeStrategy",
@@ -3967,7 +3967,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-metadata.table.targetTblProperties",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-metadata.table.targetTblProperties",
                 "inputProperty": false,
                 "key": "metadata.table.targetTblProperties",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-metadata.table.targetTblProperties",
@@ -4002,7 +4002,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-7c627365-3d3a-4495-0f65-b45f67f4e55e-skipHeader",
+                "idKey": "ID-20-7c627365-3d3a-4495-2290-3e03a37af999-skipHeader",
                 "inputProperty": false,
                 "key": "skipHeader",
                 "nameKey": "NiFi Flow-Initialize Feed Parameters-skipHeader",
@@ -4037,7 +4037,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-eb244f60-aaa3-1bba-8657-3fdbafc24573-System feed category",
+                "idKey": "ID-20-eb244f60-aaa3-1bba-99df-fd53a33803f2-System feed category",
                 "inputProperty": true,
                 "key": "System feed category",
                 "nameKey": "NiFi Flow-TriggerCleanup-System feed category",
@@ -4072,7 +4072,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-eb244f60-aaa3-1bba-8657-3fdbafc24573-System feed name",
+                "idKey": "ID-20-eb244f60-aaa3-1bba-99df-fd53a33803f2-System feed name",
                 "inputProperty": true,
                 "key": "System feed name",
                 "nameKey": "NiFi Flow-TriggerCleanup-System feed name",
@@ -4107,7 +4107,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-eb244f65-aaa3-1bba-280f-570a775e8103-System feed category",
+                "idKey": "ID-20-eb244f65-aaa3-1bba-6b94-a092595a5b65-System feed category",
                 "inputProperty": false,
                 "key": "System feed category",
                 "nameKey": "NiFi Flow-Failed - Release Highwater Mark-System feed category",
@@ -4142,7 +4142,7 @@
             {
                 "containsConfigurationVariables": false,
                 "expressionProperties": null,
-                "idKey": "ID-20-eb244f65-aaa3-1bba-280f-570a775e8103-System feed name",
+                "idKey": "ID-20-eb244f65-aaa3-1bba-6b94-a092595a5b65-System feed name",
                 "inputProperty": false,
                 "key": "System feed name",
                 "nameKey": "NiFi Flow-Failed - Release Highwater Mark-System feed name",
@@ -4246,7 +4246,7 @@
         "stream": false,
         "templateName": "Data Ingest",
         "templateOrder": null,
-        "updateDate": 1494458473162
+        "updateDate": 1494473333847
     },
     "reusableFeed": false,
     "schedule": {
