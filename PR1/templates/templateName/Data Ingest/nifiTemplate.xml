@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
 <template encoding-version="1.0">
   <description/>
-  <groupId>3ea5ab62-015a-1000-d10e-a455b02521d2</groupId>
+  <groupId>ID-0</groupId>
   <name>Data Ingest</name>
   <snippet>
     <connections>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>eb244f5f-aaa3-1bba-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-2</id>
         <type>OUTPUT_PORT</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
-      <id>9cb244cd-aafb-1d0b-0000-000000000000</id>
+      <id>ID-3</id>
       <labelIndex>1</labelIndex>
       <name/>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>7c627365-3d3a-4495-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-4</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
@@ -29,20 +29,20 @@
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>eb244f65-aaa3-1bba-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-5</id>
         <type>PROCESSOR</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
-      <id>9cb244ce-aafb-1d0b-0000-000000000000</id>
+      <id>ID-6</id>
       <labelIndex>1</labelIndex>
       <name/>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <selectedRelationships>failure</selectedRelationships>
       <selectedRelationships>nodata</selectedRelationships>
       <source>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>6aeabec7-ec36-4ed5-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-7</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
@@ -51,19 +51,19 @@
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>7c627365-3d3a-4495-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-4</id>
         <type>PROCESSOR</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
-      <id>9cb244cf-aafb-1d0b-0000-000000000000</id>
+      <id>ID-8</id>
       <labelIndex>1</labelIndex>
       <name/>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>6aeabec7-ec36-4ed5-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-7</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
@@ -72,19 +72,19 @@
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>7c627365-3d3a-4495-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-4</id>
         <type>PROCESSOR</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
-      <id>9cb244d0-aafb-1d0b-0000-000000000000</id>
+      <id>ID-9</id>
       <labelIndex>1</labelIndex>
       <name/>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>1f67e296-2ff8-4b5d-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-10</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
@@ -93,19 +93,19 @@
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>6aeabec7-ec36-4ed5-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-7</id>
         <type>PROCESSOR</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
-      <id>9cb244d1-aafb-1d0b-0000-000000000000</id>
+      <id>ID-11</id>
       <labelIndex>1</labelIndex>
       <name/>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>2567efe0-b28d-46c2-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-12</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
@@ -114,19 +114,19 @@
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>3d3a4495-7365-1c62-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-13</id>
         <type>PROCESSOR</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
-      <id>3d3a4496-7365-1c62-0000-000000000000</id>
+      <id>ID-14</id>
       <labelIndex>1</labelIndex>
       <name/>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <selectedRelationships>Success</selectedRelationships>
       <source>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>eb244f60-aaa3-1bba-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-15</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
@@ -135,19 +135,19 @@
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>eb244f5e-aaa3-1bba-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-16</id>
         <type>OUTPUT_PORT</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
-      <id>3d3a4497-7365-1c62-0000-000000000000</id>
+      <id>ID-17</id>
       <labelIndex>1</labelIndex>
       <name/>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>7c664aaf-3d33-447e-0000-000000000000</groupId>
-        <id>3d3a4495-7365-1c62-0000-000000000000</id>
+        <groupId>ID-1</groupId>
+        <id>ID-13</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
@@ -163,13 +163,13 @@
           </value>
         </entry>
       </descriptors>
-      <id>81fddaec-dc28-45ac-0000-000000000000</id>
+      <id>ID-18</id>
       <name>Kylo Cleanup Service</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <properties>
         <entry>
           <key>Spring Context Service</key>
-          <value>002bfd3c-3d3c-4a31-0000-000000000000</value>
+          <value>ID-19</value>
         </entry>
       </properties>
       <state>ENABLED</state>
@@ -185,9 +185,9 @@
           </value>
         </entry>
       </descriptors>
-      <id>002bfd3c-3d3c-4a31-0000-000000000000</id>
+      <id>ID-19</id>
       <name>SpringContextLoaderService</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <properties>
         <entry>
           <key>Configuraton Classes</key>
@@ -242,9 +242,9 @@
           </value>
         </entry>
       </descriptors>
-      <id>0478ba50-0158-1000-0000-000000000000</id>
+      <id>ID-20</id>
       <name>MySQL</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <properties>
         <entry>
           <key>Database Connection URL</key>
@@ -312,9 +312,9 @@
           </value>
         </entry>
       </descriptors>
-      <id>30c2c746-ad7d-457f-0000-000000000000</id>
+      <id>ID-21</id>
       <name>Kylo Metadata Service</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <properties>
         <entry>
           <key>client-password</key>
@@ -341,9 +341,9 @@
     </controllerServices>
     <labels>
       <height>172.5148162841797</height>
-      <id>eb244f5d-aaa3-1bba-0000-000000000000</id>
+      <id>ID-22</id>
       <label>Cleanup</label>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>0.0</x>
         <y>725.5414494347642</y>
@@ -363,9 +363,9 @@
     <outputPorts>
       <comments/>
       <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-      <id>eb244f5e-aaa3-1bba-0000-000000000000</id>
+      <id>ID-16</id>
       <name>to-standard-cleanup</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>1221.981104451571</x>
         <y>770.6956921464498</y>
@@ -377,9 +377,9 @@
     <outputPorts>
       <comments/>
       <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-      <id>eb244f5f-aaa3-1bba-0000-000000000000</id>
+      <id>ID-2</id>
       <name>to-standard-ingest</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>1310.5658351259963</x>
         <y>499.6886564425422</y>
@@ -426,7 +426,7 @@
         <properties>
           <entry>
             <key>Metadata Provider Service</key>
-            <value>30c2c746-ad7d-457f-0000-000000000000</value>
+            <value>ID-21</value>
           </entry>
           <entry>
             <key>System feed category</key>
@@ -434,7 +434,7 @@
           </entry>
           <entry>
             <key>Feed Cleanup Event Service</key>
-            <value>81fddaec-dc28-45ac-0000-000000000000</value>
+            <value>ID-18</value>
           </entry>
           <entry>
             <key>System feed name</key>
@@ -446,9 +446,9 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <id>eb244f60-aaa3-1bba-0000-000000000000</id>
+      <id>ID-15</id>
       <name>TriggerCleanup</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>58.656973665160876</x>
         <y>754.6707203774513</y>
@@ -540,7 +540,7 @@
           </entry>
           <entry>
             <key>Metadata Service</key>
-            <value>30c2c746-ad7d-457f-0000-000000000000</value>
+            <value>ID-21</value>
           </entry>
           <entry>
             <key>High-Water Mark Value Property Name</key>
@@ -552,9 +552,9 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <id>eb244f65-aaa3-1bba-0000-000000000000</id>
+      <id>ID-5</id>
       <name>Failed - Release Highwater Mark</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>653.7246453585703</x>
         <y>0.0</y>
@@ -708,9 +708,9 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <id>1f67e296-2ff8-4b5d-0000-000000000000</id>
+      <id>ID-10</id>
       <name>Filesystem</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>9.970077323082478</x>
         <y>459.91565942237776</y>
@@ -808,7 +808,7 @@
           </entry>
           <entry>
             <key>Metadata Service</key>
-            <value>30c2c746-ad7d-457f-0000-000000000000</value>
+            <value>ID-21</value>
           </entry>
           <entry>
             <key>High-Water Mark Value Property Name</key>
@@ -824,9 +824,9 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <id>2567efe0-b28d-46c2-0000-000000000000</id>
+      <id>ID-12</id>
       <name>Database</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>2.185439871910603</x>
         <y>231.04846845100337</y>
@@ -931,9 +931,9 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <id>3d3a4495-7365-1c62-0000-000000000000</id>
+      <id>ID-13</id>
       <name>Initialize Cleanup Parameters</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>636.3051660529418</x>
         <y>747.6914095063012</y>
@@ -1086,7 +1086,7 @@
           </entry>
           <entry>
             <key>Source Database Connection</key>
-            <value>0478ba50-0158-1000-0000-000000000000</value>
+            <value>ID-20</value>
           </entry>
           <entry>
             <key>System feed category</key>
@@ -1109,7 +1109,7 @@
           </entry>
           <entry>
             <key>Metadata Service</key>
-            <value>30c2c746-ad7d-457f-0000-000000000000</value>
+            <value>ID-21</value>
           </entry>
         </properties>
         <runDurationMillis>0</runDurationMillis>
@@ -1117,9 +1117,9 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <id>6aeabec7-ec36-4ed5-0000-000000000000</id>
+      <id>ID-7</id>
       <name>Fetch RDBMS Data</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>656.4307609440175</x>
         <y>226.8112716414371</y>
@@ -1369,9 +1369,9 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <id>7c627365-3d3a-4495-0000-000000000000</id>
+      <id>ID-4</id>
       <name>Initialize Feed Parameters</name>
-      <parentGroupId>7c664aaf-3d33-447e-0000-000000000000</parentGroupId>
+      <parentGroupId>ID-1</parentGroupId>
       <position>
         <x>658.6701562873168</x>
         <y>463.91699544380117</y>
